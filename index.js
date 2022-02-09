@@ -229,8 +229,10 @@ Using the annoyingSong function below do the following:
     "{number you gave as an argument} bottles of soda on the wall, {number you gave as an argument} bottles of soda, take one down pass it around {number you gave as an argument minus 1} bottles of soda on the wall"
 */
 
-function annoyingSong(/*add your code here*/){
-      /*add your code here*/
+function annoyingSong(number){
+      for(let i = number; i > 0; i--){
+        return '${i} bottles of soda on the wall, ${i} bottle of soda, take one down pass it around ${i - 1} bottles of soda on the wall';
+      }
 }
 
 
