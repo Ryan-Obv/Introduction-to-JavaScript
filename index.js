@@ -19,7 +19,7 @@ Do the following:
 
    HINT: no function required
 */
-let votingAge = 18
+let votingAge = 18;
 if (votingAge >= 18) {
   console.log(true);
 }
@@ -36,11 +36,10 @@ Do the following:
 */
 let varOne = 'one'
 let varTwo = 'two'
-if (varTwo === true) {
-  varOne = 'three'
-  console.log(varOne);
+if (varTwo === 'two') {
+  varOne = 'three';
 }
-
+console.log(varOne);
 
 /*
 Task 1c - Convert Strings to Numbers
